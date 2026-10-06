@@ -3,39 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- SEO & Social Media Preview (OpenGraph) -->
-  <title>STRIZZ.ID | Rangka BMX Cub, Frame BMX Cub & Part Custom Motor</title>
-  <meta name="description" content="STRIZZ.ID menyediakan rangka BMX Cub, frame BMX Cub custom, arm, stang, dan part custom berkualitas untuk membangun proyek motor BMX Cub Anda secara presisi.">
-  <meta name="keywords" content="rangka BMX Cub, frame BMX Cub, rangka motor BMX Cub, frame motor BMX Cub, rangka custom BMX Cub, frame custom BMX Cub, part BMX Cub, sparepart BMX Cub, komponen BMX Cub, part custom BMX Cub">
-  <meta name="author" content="STRIZZ.ID">
-  
-  <!-- OpenGraph / Social Sharing -->
-  <meta property="og:title" content="STRIZZ.ID – Custom BMX Cub Parts & Framing Series">
-  <meta property="og:description" content="Pusat pembuatan rangka BMX Cub, frame custom, arm, dan komponen pnp untuk proyek custom motor bebek Anda. Build your own legacy with STRIZZ.ID.">
-  <meta property="og:image" content="banner1.png">
-  <meta property="og:type" content="website">
 
-  <!-- Schema.org Structured Data (JSON-LD) for Automotive Parts Brand -->
+  <!-- SEO -->
+  <title>STRIZZ.ID | Rangka BMX Cub & Frame BMX Cub Custom</title>
+
+  <meta name="description" content="STRIZZ.ID menyediakan rangka BMX Cub, frame BMX Cub custom, rangka motor BMX Cub, arm, stang, dan berbagai part custom untuk kebutuhan modifikasi motor.">
+
+  <meta name="keywords" content="rangka BMX Cub, frame BMX Cub, rangka BMX Cub custom, frame BMX Cub custom, rangka motor BMX Cub, frame motor BMX Cub, part BMX Cub, sparepart BMX Cub, komponen BMX Cub, STRIZZ BMX Cub">
+
+  <meta name="author" content="STRIZZ.ID">
+
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://mhmaddrzky.github.io/STRIZZ.ID/">
+
+  <!-- OpenGraph / Social Media -->
+  <meta property="og:title" content="STRIZZ.ID | Rangka BMX Cub & Frame BMX Cub Custom">
+  <meta property="og:description" content="STRIZZ.ID menyediakan rangka BMX Cub, frame BMX Cub custom, arm, stang, dan part custom untuk kebutuhan modifikasi motor.">
+  <meta property="og:url" content="https://mhmaddrzky.github.io/STRIZZ.ID/">
+  <meta property="og:image" content="https://mhmaddrzky.github.io/STRIZZ.ID/banner1.png">
+  <meta property="og:image:alt" content="STRIZZ.ID Rangka BMX Cub dan Frame BMX Cub Custom">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="STRIZZ.ID">
+  <meta property="og:locale" content="id_ID">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="STRIZZ.ID | Rangka BMX Cub & Frame BMX Cub Custom">
+  <meta name="twitter:description" content="Rangka BMX Cub, frame BMX Cub custom dan part motor custom dari STRIZZ.ID.">
+  <meta name="twitter:image" content="https://mhmaddrzky.github.io/STRIZZ.ID/banner1.png">
+
+  <!-- Schema.org -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "AutoPartsStore",
+    "@type": "Organization",
     "name": "STRIZZ.ID",
-    "description": "Brand spesialis pembuat rangka BMX Cub, frame custom, dan part motor custom di Indonesia.",
-    "brand": {
-      "@type": "Brand",
-      "name": "STRIZZ.ID"
-    },
-    "category": "Motorcycle Custom Parts"
+    "url": "https://mhmaddrzky.github.io/STRIZZ.ID/",
+    "description": "STRIZZ.ID adalah brand yang menyediakan rangka BMX Cub, frame BMX Cub custom dan part motor custom."
+  }
+  </script>
+
+  <!-- Website Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "STRIZZ.ID",
+    "url": "https://mhmaddrzky.github.io/STRIZZ.ID/"
   }
   </script>
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+
   <!-- Google Font: Inter -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
-  
+
   <!-- AOS CSS (Animate On Scroll Library) -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -61,7 +87,7 @@
     body { font-family: 'Inter', sans-serif; }
     .no-scrollbar::-webkit-scrollbar { display: none; }
     .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-    
+
     /* Custom Scrollbar Automotive Style */
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: #0a0a0a; }
@@ -86,6 +112,7 @@
       content: '|';
       animation: blink 0.8s infinite;
     }
+
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
@@ -93,9 +120,16 @@
 
     /* Floating WhatsApp Glow Pulse */
     @keyframes pulse-glow {
-      0%, 100% { box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); transform: scale(1); }
-      50% { box-shadow: 0 0 30px rgba(16, 185, 129, 0.8); transform: scale(1.06); }
+      0%, 100% {
+        box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+        transform: scale(1);
+      }
+      50% {
+        box-shadow: 0 0 30px rgba(16, 185, 129, 0.8);
+        transform: scale(1.06);
+      }
     }
+
     .animate-wa-glow {
       animation: pulse-glow 3s infinite ease-in-out;
     }
@@ -106,6 +140,7 @@
       50% { transform: scale(1.08); }
       100% { transform: scale(1); }
     }
+
     .animate-hero-zoom {
       animation: heroZoom 20s infinite ease-in-out alternate;
     }
