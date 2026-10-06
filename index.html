@@ -203,39 +203,63 @@
   </header>
 
   <!-- 2. HERO SECTION WITH TYPING ANIMATION -->
-  <section id="hero" class="relative bg-black text-white min-h-[85vh] flex items-center overflow-hidden border-b border-neutral-800 py-12 sm:py-16">
-    <!-- Background Hero Banner STRIZZ.ID -->
-    <div class="absolute inset-0 z-0 overflow-hidden">
-      <img src="banner1.png" alt="STRIZZ.ID BMX Cub Custom" class="w-full h-full object-cover object-[95%_center] opacity-75 animate-hero-zoom">
-      <div class="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent max-w-xl"></div>
-    </div>
+ <section id="hero" class="relative bg-black text-white min-h-[85vh] flex items-start sm:items-center overflow-hidden border-b border-neutral-800 py-12 sm:py-16">
 
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-      <div class="max-w-md lg:max-w-lg">
-        <span class="inline-block px-3 py-1 bg-strizz-green/10 border border-strizz-green/30 text-strizz-green rounded-full text-[10px] sm:text-xs font-extrabold uppercase tracking-widest mb-3">
-          STRIZZ.ID CUSTOM SERIES
-        </span>
-        
-        <!-- Dynamic Typing Animation Headline -->
-        <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight mb-3 uppercase leading-tight drop-shadow-md min-h-[70px] sm:min-h-[100px]">
-          <span id="typing-text" class="text-white typing-cursor"></span>
-        </h1>
-        
-        <p class="text-xs sm:text-base text-neutral-300 mb-6 font-normal leading-relaxed drop-shadow">
-          Aksesoris BMX Cub, Part Custom Box Aki, Stang, Bracket, Jok, Tangki Cadangan, Boncengan & Rangka Presisi.
-        </p>
+  <!-- Background Hero Banner STRIZZ.ID -->
+  <div class="absolute inset-0 z-0 overflow-hidden">
+    <img 
+      src="banner1.png" 
+      alt="STRIZZ.ID BMX Cub Custom" 
+      class="w-full h-full object-cover object-[95%_center] opacity-75 animate-hero-zoom"
+    >
 
-        <div class="flex flex-col sm:flex-row gap-3">
-          <a href="#products" class="bg-strizz-green text-black px-6 py-3 rounded-full font-bold hover:bg-strizz-darkgreen hover:text-white transition text-center shadow-lg hover:scale-105 transform duration-200 text-xs sm:text-sm">
-            Jelajahi Part BMX Cub
-          </a>
-          <a href="#story" class="border border-neutral-700 bg-black/60 backdrop-blur-sm text-white px-6 py-3 rounded-full font-bold hover:bg-neutral-800 transition text-center text-xs sm:text-sm">
-            Kenapa Harus STRIZZ.ID?
-          </a>
-        </div>
+    <div class="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent max-w-xl"></div>
+  </div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-16 sm:pt-0">
+
+    <div class="max-w-md lg:max-w-lg">
+
+      <!-- Label -->
+      <span class="inline-block px-3 py-1 bg-strizz-green/10 border border-strizz-green/30 text-strizz-green rounded-full text-[10px] sm:text-xs font-extrabold uppercase tracking-widest mb-3">
+        STRIZZ.ID CUSTOM SERIES
+      </span>
+
+      <!-- Dynamic Typing Animation Headline -->
+      <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight mb-3 uppercase leading-tight drop-shadow-md min-h-[70px] sm:min-h-[100px]">
+        <span id="typing-text" class="text-white typing-cursor"></span>
+      </h1>
+
+      <!-- Description -->
+      <p class="text-xs sm:text-base text-neutral-300 mb-6 font-normal leading-relaxed drop-shadow">
+        Aksesoris BMX Cub, Part Custom Box Aki, Stang, Bracket, Jok, Tangki Cadangan, Boncengan & Rangka Presisi.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex flex-col sm:flex-row gap-3">
+
+        <a 
+          href="#products" 
+          class="bg-strizz-green text-black px-6 py-3 rounded-full font-bold hover:bg-strizz-darkgreen hover:text-white transition text-center shadow-lg hover:scale-105 transform duration-200 text-xs sm:text-sm"
+        >
+          Jelajahi Part BMX Cub
+        </a>
+
+        <a 
+          href="#story" 
+          class="border border-neutral-700 bg-black/60 backdrop-blur-sm text-white px-6 py-3 rounded-full font-bold hover:bg-neutral-800 transition text-center text-xs sm:text-sm"
+        >
+          Kenapa Harus STRIZZ.ID?
+        </a>
+
       </div>
+
     </div>
-  </section>
+
+  </div>
+
+</section>
 
   <!-- 3. PRODUCT CATALOG SECTION -->
   <section id="products" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
